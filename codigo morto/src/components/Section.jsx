@@ -19,7 +19,7 @@ Então este jogo foi feito para você.
 <br />
 Código Morto te coloca no centro da cena do crime, desafiando você a resolver casos intrigantes, explorar pistas ocultas e interrogar suspeitos.</p> 
 </div> 
-<button><a href="#">Garanta Já</a></button>
+<button><a href="https://pay.kirvano.com/ca0b538d-599a-4879-b924-6d259b91baf4">Garanta Já</a></button>
 </div>
 
 <div className='sec2-container'>
@@ -56,7 +56,7 @@ Código Morto te coloca no centro da cena do crime, desafiando você a resolver 
     <h2>Está pronto para o desafio?</h2>
     <p>Junte-se à elite dos investigadores e resolva o seu primeiro caso.</p>
     <p>Garanta seu acesso agora!</p>
-    <button><a href="#">Garanta já</a></button>
+    <button><a href="https://pay.kirvano.com/ca0b538d-599a-4879-b924-6d259b91baf4">Garanta já</a></button>
     <p className='copy'> {"\u00A9"} {new Date().getFullYear()} Bruno Pacheco. Todos os direitos reservados.</p>
 </div>
 </div>
