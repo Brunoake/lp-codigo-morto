@@ -1,0 +1,251 @@
+@keyframes pulse{
+    0%{ box-shadow: 0 0 25px #FA9F16;}
+    100%{box-shadow: 0 0 50px #FA9F16;}
+}
+
+.sec-container{
+    color: #fafafa;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    background-color: black;
+    height: 100vh;
+    font-family: '29lt-makina';
+}
+
+.blur-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur-container > .blur-1{
+    background-color: blue;
+    filter: blur(55px);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+}
+.blur-container > .blur-2{
+    background-color: red;
+    filter: blur(55px);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+}
+
+.blur-container > .blur-3{
+    background-color: blue;
+    filter: blur(55px);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+}
+
+.text-container p{
+    font-size: 1.5rem;
+  z-index: 1;
+    text-align: center;
+
+}
+.sec-container > button > a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1.2rem;
+}
+.sec-container > button{
+    display: block;
+    margin-top: 8rem;
+    width: 320px;
+    padding: 30px;
+    background-color: #FA9F16;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: .2s;
+}
+
+.sec-container > button:hover{
+    animation: pulse 1.4s ease-in-out infinite;
+    padding: 35px;
+    width: 335px;
+}
+
+.sec2-container{
+    background-color: black;
+    height: 60vh;
+    color: #fff;
+    font-family: '29lt-makina';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2-container h2{
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.sec2-container ul li{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.sec2-container p{
+margin-top: 2.5rem;
+font-size: 2rem;
+}
+
+.sec3-container{
+    background-color: black;
+    height: 60vh;
+    font-family: '29lt-makina';
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec3-container h2{
+    font-size: 2.4rem;
+}
+
+.depoiment-container{
+    display: flex;
+    gap: 20px;
+}
+
+.dep{
+    background-color: #E8DCCA;
+    width: 380px;
+    height: 380px;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 9rem;
+}
+.dep p{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+.dep span{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 5rem;
+}
+
+.dep .star{
+    margin-top: 1rem;
+    color: #c7c704;
+    font-size: 1.3rem;
+}
+
+.footer{
+    background-color: black;
+    font-family: '29lt-makina';
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h2{
+    color: #fafafa;
+    font-size: 3rem;
+    background-color: #7A6648;
+    border-radius: 8px;
+    width: 40rem;
+    text-align: center;
+
+}
+
+.footer p{
+    color: #fff;
+    margin-top: 6rem;
+    font-size: 1.8rem;
+
+}
+
+.footer > button > a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1.2rem;
+}
+
+.footer button{
+    display: block;
+    margin-top: 8rem;
+    width: 320px;
+    padding: 30px;
+    background-color: #FA9F16;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: .2s; 
+}
+
+.footer > button:hover{
+    animation: pulse 1.4s ease-in-out infinite;
+    padding: 35px;
+    width: 335px;
+}
+
+.footer .copy{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    
+}
+
+@media (max-width: 768px){
+
+    .blur-container{
+        margin-top: 1.6rem;
+    }
+    .depoiment-container{
+        width: 100vw;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .dep{
+        height: 200px;
+        width: 390px;
+        padding-top: 0;
+    }
+    .dep span{
+        margin-top: 0px;
+    }
+    .footer{
+        height: 120vh;
+    }
+    .footer h2{
+        margin-top: 18rem;
+        width: 35rem;
+    }
+    
+    .footer p{
+        text-align: center;
+    }
+
+    .sec2-container{
+        text-align: center;
+    }
+
+    .sec-container,
+    .sec2-container,
+    .sec3-container,
+    .footer{
+        width:    127%;
+    }
+}

@@ -1,0 +1,45 @@
+.container{
+    background: url('../images//fundo-header.png');
+    background-size: cover;
+    height: 100vh;
+   
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    font-family: '29lt-makina';
+
+}
+.container h1{
+    color: #fafafa;
+    font-size: 4rem;
+    text-align: center;
+}
+.container h3{
+    color: #E8DCCA;
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 10rem;
+
+}
+.container h2{
+    color: #E8DCCA;
+    font-weight: bolder;
+    font-size: 2.9rem;
+    backdrop-filter: blur(2px);
+}
+
+.container h4{
+    color: #E8DCCA;
+    font-weight: 300;
+    font-size: 1.6rem;
+    backdrop-filter: blur(2px);
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 127%;
+        text-align: center;
+    }
+}
